@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+.ancho_contenedor{
+    max-width: 1120px;
+}
+
+body{
+    font-family: 'Maven Pro';
+}
+
+/* HEADER */
+
+.logogivenchy{
+    width: 180px;
+    margin-top: 20px;
+}
+
+.menu_header{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    
+}
+
+.menu_header li{
+    list-style: none;
+    padding-right: 10px;
+    margin-top: 25px;
+
+}
+
+.menu_header li a{
+    color: black;
+    text-decoration: none;
+    
+}
+.menu_header li a:hover{
+    text-decoration: underline;
+}
+
+.menu_header2{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_header2 li{
+    list-style: none;
+    padding: 30px;
+    margin-top: 10px;
+    
+
+}
+
+.menu_header2 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+    
+}
+.menu_header2 li a:hover{
+    text-decoration: underline;
+
+}
+
+/* MAIN */
+main{
+    border-top: 1px solid lightgray;
+}
+
+.contenedorbases{
+    margin: 35px;
+}
+
+.imagen_fondo{
+    background-image: url(../images/131background.webp);
+    padding: 80px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+/* FOOTER*/
+
+.menu_footer li{
+    list-style: none;
+    padding-top:10px;
+    margin-left: -30px;
+
+
+}
+
+.menu_footer li a{
+    color: black;
+    text-decoration: none;
+
+   
+}
+.menu_footer li a:hover{
+    text-decoration: underline;}
+
+.titulofooter{
+    font-weight:bolder;
+    
+}
+
+.footertext{
+    font-size: 12px;
+    color: gray ;
+}
